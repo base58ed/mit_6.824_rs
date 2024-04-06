@@ -7,3 +7,4 @@ edition = "2021"
 crate-type = ["dylib"]
 
 [dependencies]
+mr_model = { path = "../mr_model" }

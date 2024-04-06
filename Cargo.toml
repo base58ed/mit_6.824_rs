@@ -4,13 +4,13 @@ version = "0.1.0"
 edition = "2021"
 resolver = "2"
 
-members = [
-	"map_reduce_task",
+members = [ "common",
+	"map_reduce_task", "mr_model",
 	"mr_sequential"
 ]
 
 [profile.dev]
-panic = "abort"
+panic = "unwind"
 
 [profile.release]
 panic = "abort"
